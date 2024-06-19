@@ -19,5 +19,5 @@ Manages user requests and API responses, serving as a bridge between the API lay
 ### Exception
 Centralizes custom exceptions that can be thrown by use cases within the Application layer. This project aids in structured error handling and provides a mechanism for the API layer to catch and appropriately respond to exceptions thrown during business logic execution.
 
-### Repository
+### Infra
 Implements repository patterns to communicate with the database. This project encapsulates data access logic, providing methods to persist and retrieve data from the underlying data store. It promotes separation of concerns by isolating database interactions from other layers.
