@@ -1,0 +1,12 @@
+services:
+  base-postgres:
+    container_name: base-postgres
+    image: postgres
+    environment:
+      - POSTGRES_DB=base_dev
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./volume/postgres:/var/lib/postgresql/data
