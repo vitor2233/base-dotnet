@@ -3,9 +3,8 @@ using AutoMapper;
 using Base.Communication.Requests;
 using Base.Communication.Responses;
 using Base.Domain.Entities;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace CashFlow.Application.AutoMapper;
+namespace Base.Application.AutoMapper;
 public class AutoMapping : Profile
 {
     public AutoMapping()

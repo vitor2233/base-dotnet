@@ -1,5 +1,5 @@
 using Base.Application.UseCases.Register;
-using CashFlow.Application.AutoMapper;
+using Base.Application.AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Base.Application;
